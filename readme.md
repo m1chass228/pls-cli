@@ -29,7 +29,7 @@ cmake ..
 cmake --build .
 sudo cp pls /usr/local/bin/
 
-🚀 Usage
+## 🚀 Usage
 
 First, tell pls which local Ollama model to use (we highly recommend qwen2.5-coder:3b for the best speed/intelligence ratio):
 
@@ -52,7 +52,7 @@ Pipe Magic (stdin):
 ps aux | pls -e "find the command to kill the process consuming the most memory"
 # Output: kill -9 $(ps aux | sort -k4,4nr | head -n 1 | awk '{print $2}')
 
-⚙️ Under the Hood
+## ⚙️ Under the Hood
 
 LLM generation temperature is hardcoded to 0.0 for maximum logical accuracy and zero hallucinations.
 Active model config is safely stored in ~/.config/pls_model.txt.
