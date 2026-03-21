@@ -8,6 +8,8 @@
 
 Unlike hundreds of bloated Python wrappers, `pls` runs instantly (zero-overhead), has no third-party dependencies, and is completely context-aware of your system environment.
 
+<video src="https://github.com/user-attachments/assets/a9b787cb-def8-4be3-afdc-c7dc7f879844" width="100%" controls muted autoplay loop></video>
+
 ## ✨ Killer Features
 * ⚡ **Zero-Overhead:** Written in raw C++ using `libcurl`. Manual JSON parsing ensures microsecond execution times.
 * 🐧 **OS Context-Aware:** Automatically reads `/etc/os-release` to detect your Linux distribution and preferred package manager (zypper, apt, pacman, dnf).
