@@ -8,7 +8,7 @@
 
 Unlike hundreds of bloated Python wrappers, `pls` runs instantly (zero-overhead), has no third-party dependencies, and is completely context-aware of your system environment.
 
-<video src="https://github.com/user-attachments/assets/a9b787cb-def8-4be3-afdc-c7dc7f879844" width="100%" controls muted autoplay loop></video>
+<video src="https://github.com/user-attachments/assets/60f1a6f6-408e-4054-8368-85406d15229b" width="100%" controls muted autoplay loop></video>
 
 ## ✨ Killer Features
 * ⚡ **Zero-Overhead:** Written in raw C++ using `libcurl`. Manual JSON parsing ensures microsecond execution times.
