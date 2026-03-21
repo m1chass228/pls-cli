@@ -28,6 +28,7 @@ mkdir build && cd build
 cmake ..
 cmake --build .
 sudo cp pls /usr/local/bin/
+```
 
 ## 🚀 Usage
 
